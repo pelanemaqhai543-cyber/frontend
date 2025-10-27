@@ -4,11 +4,12 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'https://backend-ii3l.onrender.com',
+      target: 'https://backend-fq42.onrender.com',
       changeOrigin: true,
     })
   );
 };
+
 
 
 
