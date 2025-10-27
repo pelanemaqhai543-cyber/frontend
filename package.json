@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "homepage": "/",
-  "proxy": "https://backend-ii3l.onrender.com",
+  "proxy": "https://backend-fq42.onrender.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
