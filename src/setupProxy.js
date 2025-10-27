@@ -4,22 +4,9 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'https://your-live-backend-url.com', 
+      target: 'https://backend-fq42.onrender.com',
       changeOrigin: true,
       secure: true, 
     })
   );
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
